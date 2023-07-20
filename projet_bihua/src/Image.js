@@ -47,7 +47,12 @@ export default function Image() {
                   <p>
                     En suivant l’un de nos parcours de 18 mois, vous allez relever des défis et repousser vos limites. Avec Tertia Via vous opérez une transformation en profondeur dans le but de devenir des leaders agiles, visionnaires, et inspirants, capables de réussir des changements majeurs et impactant pour vos activités et vos équipes.
                   </p>
-                  <button>Découvrir nos parcours</button>
+                  <button> 
+                    Découvrir nos parcours
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </button>
                 </div>
 
                 <div ref={(el) => (sectionsRef.current[1] = el)} className='section'>
@@ -57,7 +62,12 @@ export default function Image() {
                     partons de votre projet et concrétisons sa transformation avec vous. Voilà pourquoi, pour accéder à notre
                     enseignement, il est nécessaire d’avoir une situation professionnelle valide et concrète.
                   </p>
-                  <button>Découvrir nos parcours</button>
+                  <button> 
+                    Découvrir nos parcours
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </button>
                 </div>
 
                 <div ref={(el) => (sectionsRef.current[2] = el)} className='section'>
@@ -66,7 +76,12 @@ export default function Image() {
                     En suivant l’un de nos parcours de 18 mois, vous allez relever des défis et repousser vos limites. 
                     Avec Tertia Via vous opérez une transformation en profondeur dans le but de devenir des leaders agiles, visionnaires, et inspirants, capables de réussir des changements majeurs et impactant pour vos activités et vos équipes.
                   </p>
-                  <button>Découvrir nos parcours</button>
+                  <button> 
+                    Découvrir nos parcours
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </td>

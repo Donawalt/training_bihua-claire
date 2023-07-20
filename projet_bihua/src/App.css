@@ -19,6 +19,7 @@
   height: 100%;
   display: none;
   scroll-behavior: smooth;
+  margin-left: 10%;
 }
 
 /* Afficher seulement la première section */
@@ -32,4 +33,18 @@ button{
   border-left: none;
   border-right: none;
   background-color: transparent;
+  width: 30%;
+  padding: 2%;
+  text-align: start;
+}
+
+svg{
+  margin-left: 15%;
+  margin-bottom: -1%;
+}
+
+p{
+  width: 60%; 
+  text-justify: auto;
+
 }
