@@ -1,0 +1,24 @@
+.body{
+  background-color: white;
+}
+
+
+.td{
+  height: 25%;
+}
+
+.scollContainer {
+  /* Définir une hauteur fixe pour limiter la taille du conteneur */
+  height: 300px;
+  /* Ajouter un débordement (overflow) pour permettre le scrolling vertical */
+  overflow-y: scroll;
+ 
+}
+
+.scollContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scollContainer::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
