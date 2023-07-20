@@ -2,13 +2,6 @@
   background-color: white;
 }
 
-
-.td{
-  height: 25%;
-}
-
-
-
 .scollContainer::-webkit-scrollbar-track {
   background-color: transparent;
 }
@@ -25,9 +18,18 @@
 .section {
   height: 100%;
   display: none;
+  scroll-behavior: smooth;
 }
 
 /* Afficher seulement la première section */
 .section:first-child {
   display: block;
+}
+
+button{
+  border-bottom: 0.8px solid var(--border-border-primary, #050505);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
 }
